@@ -1,8 +1,8 @@
 name: Daily message
 
-on:
+"on":
   schedule:
-    - cron: "37 20 * * *"   # 17:00 UTC = 20:00 МСК (UTC+3)
+    - cron: "0 17 * * *"   # 17:00 UTC = 20:00 МСК (UTC+3)
   workflow_dispatch: {}     # позволяет запустить вручную из вкладки Actions
 
 jobs:
